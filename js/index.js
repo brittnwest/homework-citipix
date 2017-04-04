@@ -40,7 +40,7 @@ $(".container").on("submit",function(event){
 
 function setImage(img){
   //set background image
-  src = '../starter_code/images/' + img + '.jpg'
+  src = '../homework-citipix/images/' + img + '.jpg'
 
 
   $("body").css("background", "url("+src+") no-repeat");
